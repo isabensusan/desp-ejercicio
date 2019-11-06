@@ -12,7 +12,6 @@ const HotelCard = (h) => {
                 amenities={hotel.amenities}
                 features={hotel.features}>
             </HotelDescriptionBox>
-                
         </div>
     );
 }

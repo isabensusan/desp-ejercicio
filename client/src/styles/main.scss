@@ -3,5 +3,40 @@
 @import 'base/variables';
 @import 'base/normalize';
 
+// <<---- Components ---->> //
+
+// -- Atoms -- //
+
+// Icons
+@import '../components/atoms/Icon/styles.scss';
+
+// Links
+@import '../components/atoms/Link/styles.scss';
+
+// LocationText
+@import '../components/atoms/LocationText/styles.scss';
+
+// RatingBadge
+@import '../components/atoms/RatingBadge/styles.scss';
+
+// Text
+@import '../components/atoms/Text/styles.scss';
+
+// -- Molecules -- //
+
+// Amenities
+@import '../components/molecules/Amenities/styles.scss';
+
+// HotelCard
+@import '../components/molecules/HotelCard/styles.scss';
+
+// HotelDescriptionBox
+@import '../components/molecules/HotelDescriptionBox/styles.scss';
+
+// HotelStars
+@import '../components/molecules/HotelStars/styles.scss';
+
+
+
 // Vendor Normalize
 @import-normalize;

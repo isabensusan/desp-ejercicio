@@ -10,7 +10,20 @@
     -moz-osx-font-smoothing: grayscale
 }
 
+// Icon sizes 
+.icon--sm {
+    font-size: $text-sm;
+}
+
+.icon--lm {
+    font-size: $text-lm;
+}
+
 // only coded the content code for the icons used in this particular exercise
+
+.icon--star:before {
+    content: "\f127"
+}
 
 .icon--wifi:before {
     content: "\f149"
