@@ -1,0 +1,37 @@
+.icon {
+    font-family: eva-font;
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+// only coded the content code for the icons used in this particular exercise
+
+.icon--wifi:before {
+    content: "\f149"
+}
+
+.icon--parking:before {
+    content: "\f097"
+}
+
+.icon--coffee:before {
+    content: "\f041"
+}
+
+.icon--info-circle-outline:before {
+    content: "\f074"
+}
+
+.icon--info-circle:before {
+    content: "\f075"
+}
+
+.icon--info:before {
+    content: "\f209"
+}

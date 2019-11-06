@@ -1,11 +1,11 @@
 import React from 'react';
-import HotelDescriptionBox from './components/organisms/HotelDescriptionBox/HotelDescriptionBox';
 import './styles/main.scss';
+import HotelsList from './components/organisms/HotelsList/HotelsList';
 
 function App() {
   return (
     <div className="App">
-      <HotelDescriptionBox></HotelDescriptionBox>
+      <HotelsList></HotelsList>
     </div>
   );
 }
