@@ -1,10 +1,11 @@
 import React from 'react';
-import Text from './components/atoms/Text/Text';
+import HotelDescriptionBox from './components/organisms/HotelDescriptionBox/HotelDescriptionBox';
+import './styles/main.scss';
 
 function App() {
   return (
     <div className="App">
-      <Text text={'Hotel Faena'} type={'title'}></Text>
+      <HotelDescriptionBox></HotelDescriptionBox>
     </div>
   );
 }

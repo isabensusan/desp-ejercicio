@@ -1,11 +1,14 @@
-import React, { Component } from '././././node_modules/react';
-import './styles.css'
+import React from 'react';
+import './styles.scss'
 
-const Text = ({text, type}) => {
+const Text = ({text, type, level}) => {
+    const textLevel = level;
     return (
-        <p className={`text ${type}`}>
-            {text}
-        </p>
+        <div>
+            <textLevel className={`text ${type}`}>
+                {text}
+            </textLevel>
+        </div>        
     );
 };
 

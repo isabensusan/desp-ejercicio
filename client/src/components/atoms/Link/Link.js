@@ -1,9 +1,9 @@
 import React from 'react';
-import './styles';
+import './styles.scss';
 
 const Link = ({text, type}) => {
     return (
-        <a className={`text ${type}`}>{text}</a>
+        <a className={`link ${type}`}>{text}</a>
     );
 };
 
