@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "name": "Hotel Fasano",
+      "rating": "8.5",
+      "recommended": true,
+      "stars": 5,
+      "discount": 30,
+      "price": "2.119",
+      "amenities": [
+        "wifi",
+        "coffee",
+        "laundry"
+      ],
+      "features": [
+        "Cancele gratis",
+        "Incluye un día de Auto"
+      ]
+    },
+    {
+      "name": "Hotel Faena",
+      "rating": "6.5",
+      "recommended": false,
+      "stars": 3,
+      "discount": false,
+      "price": "1.819",
+      "amenities": [
+        "coffee"
+      ],
+      "features": [
+        "Cancele gratis"
+      ]
+    }
+  ]
+}
