@@ -9,30 +9,51 @@
 
 h1 {
     font-size: $text-xxl;
+    margin: 0;
 }
   
 h2 {
     font-size: $text-xl;
+    margin: 0;
 }
   
 h3 {
     font-size: $text-l;
+    margin: 0;
 }
   
 h4 {
     font-size: $text-m;
+    margin: 0;
 }
   
 h5 {
     font-size: $text-sm;
+    margin: 0;
 }
   
 h6 {
     font-size: $text-xs;
+    margin: 0;
 }
   
-p,a {
+p, a {
+    margin: 0;
     font-size: $text-sm;
     font-weight: 200;
     line-height: 1.8;
+}
+
+p.text--light-gray {
+    color: $light-gray;
+}
+
+a {
+    color: $purple;
+    font-weight: 500;
+    text-decoration: none;
+    
+    &:hover {
+        color: $dark-purple;
+    }
 }

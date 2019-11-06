@@ -1,8 +1,9 @@
 import React from 'react';
+import './styles.scss';
 
 const RatingBadge = ({rating}) => {
     return (
-        <div>
+        <div className='rating-badge'>
             {rating}
         </div>
     );
