@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles.scss';
 
-const RatingBadge = ({rating}) => {
+const RatingBadge = ({ rating }) => {
     return (
         <div className='rating-badge'>
-            {rating}
+            { rating }
         </div>
     );
 };

@@ -37,29 +37,6 @@ router.post('/hotels/add', (req, res, next) => {
 
 })
 
-// Room.find({
-//     type: req.body.roomType,
-//     beds: req.body.beds,
-//     max_occupancy: {$gt: req.body.guests},
-//     cost_per_night: {$gte: req.body.priceRange.lower, $lte: req.body.priceRange.upper},
-//     reserved: { 
-
-//         //Check if any of the dates the room has been reserved for overlap with the requsted dates
-//         $not: {
-//             $elemMatch: {from: {$lt: req.body.to.substring(0,10)}, to: {$gt: req.body.from.substring(0,10)}}
-//         }
-
-//     }
-// }, function(err, rooms){
-//     if(err){
-//         res.send(err);
-//     } else {
-//         res.json(rooms);
-//     }
-// });
-
-  
-
 module.exports = router;
 
 
