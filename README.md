@@ -1,14 +1,14 @@
 # desp-test
 Dev Exercise para Despegar UX Developer
 
-Para correrlo por primera vez hay que correr 
+Para correrlo por primera vez: 
 ```
 cd client && npm install
 cd ..
 cd server && npm install
 ``` 
 
-**Commands: **
+** Commands: **
 ```
   cd server
   npm run dev
