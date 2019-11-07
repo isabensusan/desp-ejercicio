@@ -10,7 +10,9 @@ const PriceBox = ({hotelPrice, hotelDiscount}) => {
     return (
         <div class='price-box text--left col-xs-12'>
             <p className='price-box__final-price-text text--xs color--light-gray'>Precio final por 1 noche para 2 personas</p>
-            <s className='text--xs color--light-gray'>$ {hotelPrice}</s>
+            {
+                discount && discount > 0 ? <s className='text--xs color--light-gray'>$ {hotelPrice}</s> : ''
+            }            
             <div className='price-box__final-price-wrapper'>
                 <Icon color="purple" type="info-circle-outline" size="lm"></Icon>
                 <h1 className="price-box__final-price">

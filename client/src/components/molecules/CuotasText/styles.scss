@@ -1,4 +1,4 @@
-.cuotas-box {
+.hotel-payment-box .cuotas-box {
     padding: 8px 16px;
     border-top: $border-1-light-gray;
 
@@ -9,13 +9,17 @@
 }
 
 @media (min-width: $breakpoint-md) {
-    .cuotas-box {
-        position: absolute;    
-        bottom: 0;
-
-        .cuotas-box__link,
-        .cuotas-box__desc {
-            display: inline;
+    .hotel-payment-box {
+        .cuotas-box {
+            padding: 8px 16px;
+            border-top: $border-1-light-gray;
+            position: absolute;    
+            bottom: 0;
+    
+            .cuotas-box__link,
+            .cuotas-box__desc {
+                display: inline;
+            }
         }
     }
 }
