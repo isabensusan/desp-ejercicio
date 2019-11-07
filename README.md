@@ -10,8 +10,7 @@ cd server && npm install
 
 **Commands:**
 ```
-  cd server
-  npm run dev
+  cd server && npm run dev
 ```
 
 Previews del sitio: 
