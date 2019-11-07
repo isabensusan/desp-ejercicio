@@ -8,7 +8,7 @@ cd ..
 cd server && npm install
 ``` 
 
-** Commands: **
+**Commands:**
 ```
   cd server
   npm run dev
