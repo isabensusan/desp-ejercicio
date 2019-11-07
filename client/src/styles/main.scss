@@ -39,6 +39,11 @@
 // Cuotas Text
 @import '../components/molecules/CuotasText/styles.scss';
 
+// Flight Card Desktop
+@import '../components/molecules/FlightCardDesktop/styles.scss';
+
+// Flight Card Desktop Description Row
+@import '../components/molecules/FlightCardDesktop/FlightCardDtDescriptionRow/styles.scss';
 
 // HotelCard
 @import '../components/molecules/HotelCard/styles.scss';
@@ -57,3 +62,6 @@
 
 // HotelStars
 @import '../components/molecules/HotelStars/styles.scss';
+
+// Tramo Marker
+@import '../components/molecules/TramoMarker/styles.scss';

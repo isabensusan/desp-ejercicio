@@ -56,3 +56,56 @@
 .icon--info:before {
     content: "\f209"
 }
+
+.icon--plane-depart:before,
+.icon--plane-return:before {
+    content: "\f001"
+}
+
+.icon--plane-return {
+  transform: rotate(180deg);  // a bit hacky, but my icons font file couldn't find the plane
+}
+
+.icon--radio-circle {
+    border-color: $purple;
+    background-color: $white;
+    border-radius: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+    margin-bottom: -4px;
+    border: 1px solid $purple;
+    background-color: $white;
+    overflow: hidden;
+}
+
+.icon--radio-circle:before {    
+    border-radius: 100%;
+    content: "";
+    position: absolute;
+    top: calc(50% - 3px);
+    left: calc(50% - 3px);
+    width: 12px;
+    height: 12px;
+    margin: -3px 0 0 -3px;
+    background-color: $purple;
+}
+
+.icon--single:before {
+    content: "\f117";
+}
+
+.icon--handbag:before {
+    content: "\f071";
+}
+
+.icon--backpack:before {
+    content: "\f239";
+}
+
+.icon--arrow-down:before {
+    content: "\f008";
+}

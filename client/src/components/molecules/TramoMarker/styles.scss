@@ -1,0 +1,19 @@
+.tramo-marker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65px;
+    background-color: $lightest-gray;
+    border-radius: 10px 0 10px 0;
+    margin-left: -16px;
+    padding-left: 16px;
+
+    .icon, h6 {
+        display: inline-block;
+    }
+}
+
+.tramo-marker__title {
+    display: block;
+    align-items: center;
+}

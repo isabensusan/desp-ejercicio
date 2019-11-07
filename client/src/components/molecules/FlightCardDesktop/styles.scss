@@ -1,0 +1,52 @@
+.flight-card-dt {
+    border: $border-1-light-gray;
+    border-radius: 10px;
+}
+
+.flight-card-dt__header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 63px;
+    padding: 0 16px;
+}
+
+.flight-card-dt__header-right {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    column-gap: 10px;
+    padding-left: 10px;
+}
+
+.flight-card-dt__header-lugagge {
+    padding-top: $text-md; 
+}
+
+.flight-card-dt__note {
+    padding: 10px 20px;
+    border-top: $border-1-light-gray;
+}
+
+.flight-card-dt__details {
+    padding: 0;
+}
+
+.flight-card-dt__price-container {
+    border-left: $border-1-light-gray;
+    padding: 16px;
+}
+
+.cuotas-box {
+    position: relative;
+    border: 0;
+    padding: 0;
+}
+
+@media (min-width: $breakpoint-md) {
+    .cuotas-box {
+        .cuotas-box__desc,
+        .cuotas-box__link {
+            display: inline-block;
+        }
+    }
+}

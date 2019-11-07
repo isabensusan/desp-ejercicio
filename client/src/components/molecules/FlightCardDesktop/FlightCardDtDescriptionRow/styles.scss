@@ -1,0 +1,17 @@
+.flight-card-dt-description {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    height: 63px;
+    padding: 0 16px;
+    align-items: center;
+    column-gap: 10px;
+
+    > div {
+       display: flex;
+       align-content: center; 
+    }
+
+    .icon--radio-circle {
+        margin-right: 15px;
+    }
+}
