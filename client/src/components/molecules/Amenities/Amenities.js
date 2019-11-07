@@ -3,7 +3,7 @@ import Icon from '../../atoms/Icon/Icon';
 
 const Amenities = ({amenities}) => {
     return (
-        <div>
+        <div className='amenities'>
             {
                 amenities.map((a) => {
                     return(

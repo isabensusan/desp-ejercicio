@@ -4,17 +4,19 @@ import LocationText from '../../atoms/LocationText/LocationText';
 import RatingBadge from '../../atoms/RatingBadge/RatingBadge';
 import HotelStars from '../HotelStars/HotelStars';
 import Amenities from '../Amenities/Amenities';
+import FeatureBadge from '../../atoms/FeatureBadge/FeatureBadge';
 
 const HotelDescriptionBox = ({ name, rating, stars, amenities, features }) =>  {
     console.log(name)
     return (
-        <div className='description-box'>
+        <div className='hotel-desc-box'>
             <h3>{name}</h3>
             {/* <Text text={'Hotel Faena'} type={'title'} level={'h1'}></Text> */}
             <LocationText text='Miami, Miami Springs' mapLink='www.google.com'></LocationText>
             <RatingBadge rating={rating}></RatingBadge>
             <HotelStars stars={stars}></HotelStars>
             <Amenities amenities={amenities}></Amenities>
+            <FeatureBadge features={features}></FeatureBadge>
         </div>
     );
 }

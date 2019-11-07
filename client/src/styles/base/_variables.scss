@@ -7,6 +7,7 @@ $dark-purple: #270570;
 $dark-gray: #444444;
 $gray: #666666;
 $light-gray: #888888;
+$very-light-gray: #CCCCCC;
 $white: #ffffff;
 
 
@@ -14,8 +15,11 @@ $white: #ffffff;
 $text-xxl: 2rem; // 32px
 $text-xl: 1.75rem;  // 28px
 $text-l: 1.5rem; // 24px
-$text-lm: 1.3rem; // ~20px
+$text-lm: 1.3rem; // ~20px sorry for the weird name it's supposed to be between large and medium
 $text-m: 1rem; // 16px
 $text-sm: 0.88rem; // 14px
 $text-xs: 0.75rem; // 12px
 $text-xxs: 0.69rem; // 11px
+
+// Borders
+$border-radius: 4px;

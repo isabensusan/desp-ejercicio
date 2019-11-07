@@ -1,0 +1,11 @@
+.feature-badge {
+    display: inline-block;
+    padding: 0px 4px;
+    border: 1px solid $very-light-gray;
+    border-radius: $border-radius;
+    margin: 5px 5px 0 0;
+}
+
+.feature-badge--desc {
+    color: $green;
+}

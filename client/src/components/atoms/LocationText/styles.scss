@@ -1,7 +1,9 @@
 .location-text > * {
-    line-height: 1;
+    line-height: 1.2;
 }
 
-.location-text--description {
+.location-text--description,
+.location-text--link {
     margin: 0;
+    font-size: $text-xs;
 }
