@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "start-watch": "nodemon index.js",
-    "dev": "concurrently \"cd ../client && npm start\""
+    "dev": "concurrently \"cd ../client && npm start\" \"node index.js\""
   },
-  "author": "Isabel Bensusan Mille",
+  "author": "Isa Bensusan Mille",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
