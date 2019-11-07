@@ -1,0 +1,45 @@
+.flight-card-m__details {
+    padding: 0;
+
+    .tramo-marker {
+        border-radius: 10px 10px 0 0;
+        margin-left: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px 10px;    
+        height: auto;
+    }
+}
+
+.flight-card-m__details-return {
+    .tramo-marker {
+        border-radius: 0;
+    }
+}
+
+.flight-card-m__note {
+    padding: 10px 0;
+    border-top: $border-1-light-gray;
+    border-bottom: $border-1-light-gray;
+}
+
+.flight-card-m__price-container .row {
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center ;
+}
+
+.flight-card-m__cuotas {
+    padding: 10px 16px;
+    border-top: $border-1-light-gray;
+
+    .cuotas-box__desc,
+    .cuotas-box__link {
+        display: inline;
+    }
+}
+
+.flight-card-m__duration {
+    margin-left: 10px;
+    margin-top: 5px;
+}

@@ -1,0 +1,13 @@
+.flight-price-box__final-price-dt {
+    display: none;
+}
+
+@media (min-width: $breakpoint-md) {
+    .flight-price-box__final-price-dt {
+        display: block;
+    }
+
+    .flight-price-box__final-price-m {
+        display: none;
+    }
+}

@@ -1,8 +1,3 @@
-.flight-card-dt {
-    border: $border-1-light-gray;
-    border-radius: 10px;
-}
-
 .flight-card-dt__header {
     display: grid;
     grid-template-columns: 25% 75%;
@@ -38,6 +33,14 @@
     .btn {
         margin: 15px 0;
     }   
+}
+
+.flight-card-dt__return {
+    border-top: $border-1-light-gray;
+    
+    .tramo-marker {
+        border-radius: 0 0 10px 0;
+    }
 }
 
 .cuotas-box {

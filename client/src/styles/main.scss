@@ -39,11 +39,26 @@
 // Cuotas Text
 @import '../components/molecules/CuotasText/styles.scss';
 
+// Flight Card Container
+@import '../components/molecules/FlightCardContainer/styles.scss';
+
 // Flight Card Desktop
 @import '../components/molecules/FlightCardDesktop/styles.scss';
 
 // Flight Card Desktop Description Row
 @import '../components/molecules/FlightCardDesktop/FlightCardDtDescriptionRow/styles.scss';
+
+// Flight Card Mobile
+@import '../components/molecules/FlightCardMobile/styles.scss';
+
+// Flight Card Mobile Header
+@import '../components/molecules/FlightCardMobile/FlightCardMHeader/styles.scss';
+
+// Flight Card Mobile Description Row
+@import '../components/molecules/FlightCardMobile/FlightCardMDescription/styles.scss';
+
+// Flight Price Box
+@import '../components/molecules/FlightPriceBox/styles.scss';
 
 // HotelCard
 @import '../components/molecules/HotelCard/styles.scss';

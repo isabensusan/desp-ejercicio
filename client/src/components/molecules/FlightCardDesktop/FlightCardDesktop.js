@@ -13,7 +13,7 @@ const FlightCardDesktop = ({flightData}) => {
                     <FlightCardDtHeader flightLegData={flightData.departure} flightLeg='departure'></FlightCardDtHeader>
                     <FlightCardDtDescriptionRow flightData={flightData.departure}></FlightCardDtDescriptionRow>
                 </div>
-                <div>
+                <div className='flight-card-dt__return'>
                     <FlightCardDtHeader flightLegData={flightData.return} flightLeg='return'></FlightCardDtHeader>
                     <FlightCardDtDescriptionRow flightData={flightData.return}></FlightCardDtDescriptionRow>
                 </div>

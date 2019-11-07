@@ -1,0 +1,33 @@
+.flight-card-m-description {
+    display: flex;
+    padding: 10px 0 15px 10px;
+}
+
+.flight-card-m-description__middle-block-wrapper {
+    flex-grow: 1;
+}
+
+.flight-card-m-description__middle-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.flight-card-m-description__days-after {
+    padding-left: 5px;
+}
+
+.flight-card-m-description__a-time,
+.flight-card-m-description__days-after {
+    display: inline;
+}
+
+.flight-card-m-description__lugagge-wrapper {
+    text-align: right;
+}
+
+.flight-card-m-description__departure p:first-child,
+.flight-card-m-description__arrival p:first-child {
+    line-height: 1;
+}

@@ -1,0 +1,12 @@
+.flight-card-m__header {
+    display: grid;
+    grid-template-columns: 32px 1fr auto;
+    min-height: 40px;
+    align-content: center;
+    padding: 10px 10px 5px 10px;
+}
+
+.flight-card-m__header .row {
+    margin-right: 0;
+    margin-left: 0;
+}

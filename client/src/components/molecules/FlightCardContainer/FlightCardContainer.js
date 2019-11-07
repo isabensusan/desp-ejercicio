@@ -30,7 +30,7 @@ class FlightCardContainer extends React.Component {
         const isDesktop = this.state.isDesktop;
 
         return (
-            <div className='flight-card__container col-xs-8'>
+            <div className='flight-card__container col-xs-8 col-sm-7 col-md-9'>
             {isDesktop ? (
                 <FlightCardDesktop flightData={this.props.flightData}></FlightCardDesktop>
             ) : (
