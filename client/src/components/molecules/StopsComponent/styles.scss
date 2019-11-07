@@ -1,0 +1,26 @@
+.stops {
+    margin: auto;
+}
+
+.stops__dots-wrapper {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.stops__dots-line {
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background: gray;
+    top: 3px;
+}
+
+.stops__dots {
+    width: 5px;
+    height: 5px;
+    border: 1px solid $dark-gray;
+    border-radius: 100%;
+    background:$white;
+    z-index: 1;
+}

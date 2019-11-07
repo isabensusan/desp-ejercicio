@@ -34,6 +34,10 @@
 .flight-card-dt__price-container {
     border-left: $border-1-light-gray;
     padding: 16px;
+
+    .btn {
+        margin: 15px 0;
+    }   
 }
 
 .cuotas-box {

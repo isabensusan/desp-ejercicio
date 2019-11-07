@@ -4,14 +4,26 @@
     height: 63px;
     padding: 0 16px;
     align-items: center;
-    column-gap: 10px;
 
     > div {
        display: flex;
-       align-content: center; 
+       align-items: baseline;
+       padding-left: 10px;
+    }
+
+    > div:first-child {
+        align-items: center;
     }
 
     .icon--radio-circle {
         margin-right: 15px;
     }
+}
+
+.flight-card-dt-description__days-after {
+    padding: 0 7px;
+}
+
+.flight-card-dt-description__lugagge-wrapper .icon {
+    margin-left: auto;
 }
