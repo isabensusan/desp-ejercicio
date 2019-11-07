@@ -1,0 +1,17 @@
+.price-box {
+    padding: 16px;
+}
+.price-box__final-price {
+    line-height: 1;
+    margin-left: 3px;
+}
+
+.price-box__final-price-wrapper {
+    margin: 5px 0;
+    display: flex;
+    align-items: baseline;
+}
+
+.price-box__button {
+    margin-top: 15px;
+}

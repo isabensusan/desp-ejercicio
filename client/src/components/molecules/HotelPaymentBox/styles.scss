@@ -1,0 +1,13 @@
+.hotel-payment-box {
+    position: relative;
+    padding: 0;
+    border-top: $border-1-light-gray;
+    box-sizing: border-box;
+}
+
+@media(min-width: $breakpoint-md) {
+    .hotel-payment-box {
+        border-left: $border-1-light-gray;
+        border-top: 0;
+    }
+}

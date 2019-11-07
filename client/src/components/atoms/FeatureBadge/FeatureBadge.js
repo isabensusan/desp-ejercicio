@@ -7,7 +7,7 @@ const FeatureBadge = ({features}) => {
                 features.map((f) => {
                     return(       
                         <li className="feature-badge">
-                            <p className="feature-badge--desc">{f}</p>
+                            <p className="feature-badge--desc text--xs">{f}</p>
                         </li>
                     )
                 })

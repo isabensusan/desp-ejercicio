@@ -6,7 +6,7 @@
     font-family: eva-font;
     src: url(../../resources/fonts/eva-font.woff);
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
 }
 
 * {
@@ -20,6 +20,7 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
     font-size: $text-xxl;
     color: $dark-gray;
+    font-weight: 400;
 }
   
 h2 {
@@ -28,12 +29,12 @@ h2 {
 }
   
 h3 {
-    font-size: $text-l;
+    font-size: $text-lg;
     color: $dark-gray;
 }
   
 h4 {
-    font-size: $text-m;
+    font-size: $text-md;
 }
   
 h5 {
@@ -51,10 +52,6 @@ p, a {
     line-height: 1.8;
 }
 
-p.text--light-gray {
-    color: $light-gray;
-}
-
 a {
     color: $purple;
     font-weight: 500;
@@ -63,4 +60,58 @@ a {
     &:hover {
         color: $dark-purple;
     }
+}
+
+// --- Size Utils --- //
+
+.text--lg {
+    font-size: $text-lg;
+}
+
+.text--lm {
+    font-size: $text-lm;
+}
+
+.text--md {
+    font-size: $text-md;
+}
+
+.text--sm {
+    font-size: $text-sm;
+}
+
+.text--xs {
+    font-size: $text-xs;
+    line-height: $text-md;
+}
+
+// --- Color Utils --- //
+
+.color--dark-gray {
+    color: $dark-gray;
+}
+
+.color--gray {
+    color: $gray;
+   }
+
+.color--light-gray {
+    color: $light-gray;
+}
+
+.color--purple {
+    color: $purple;
+}
+
+.color--dark-purple {
+    color: $dark-purple;
+}
+// --- Alignment Utils --- //
+
+.text--left {
+    text-align: left;
+}
+
+.text--right {
+    text-align: right;
 }

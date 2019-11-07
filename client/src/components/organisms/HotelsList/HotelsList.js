@@ -25,15 +25,16 @@ class HotelsList extends Component {
 
     render() {
         let { hotels } = this.state;
-        console.log(this.state);
 
         return (
-            <div>
+            <div class='hotels-list'>
                 {
                     hotels && hotels.length > 0 ? (
                         hotels.map(hotel => {
                             return (
-                                <HotelCard key={hotel._id} data={hotel}></HotelCard>                               
+                                <div class='row center-xs'>
+                                    <HotelCard key={hotel._id} data={hotel}></HotelCard>   
+                                </div>                            
                             )
                         })
                     )

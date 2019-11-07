@@ -1,0 +1,21 @@
+.cuotas-box {
+    padding: 8px 16px;
+    border-top: $border-1-light-gray;
+
+    .cuotas-box--link,
+    .cuotas-box--desc {
+        display: inline-block;
+    }
+}
+
+@media (min-width: $breakpoint-md) {
+    .cuotas-box {
+        position: absolute;    
+        bottom: 0;
+
+        .cuotas-box--link,
+        .cuotas-box--desc {
+            display: inline;
+        }
+    }
+}

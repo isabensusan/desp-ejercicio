@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "start-watch": "nodemon index.js",
-    "dev": "concurrently \"cd client && npm start\""
+    "dev": "concurrently \"cd ../client && npm start\""
   },
   "author": "Isabel Bensusan Mille",
   "license": "ISC",

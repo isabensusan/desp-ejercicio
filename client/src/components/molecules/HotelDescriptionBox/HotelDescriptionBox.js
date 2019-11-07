@@ -9,7 +9,7 @@ import FeatureBadge from '../../atoms/FeatureBadge/FeatureBadge';
 const HotelDescriptionBox = ({ name, rating, stars, amenities, features }) =>  {
     console.log(name)
     return (
-        <div className='hotel-desc-box'>
+        <div className='hotel-desc-box col-md-5 col-xs-12'>
             <h3>{name}</h3>
             {/* <Text text={'Hotel Faena'} type={'title'} level={'h1'}></Text> */}
             <LocationText text='Miami, Miami Springs' mapLink='www.google.com'></LocationText>

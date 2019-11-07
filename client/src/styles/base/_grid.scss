@@ -266,9 +266,9 @@
   order: 1;
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: $breakpoint-sm) { //48em) {
   .container {
-    width: 49rem;
+    width: 90%; //49rem;
   }
 
   .col-sm,
@@ -497,9 +497,9 @@
   }
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: $breakpoint-md) { //64em) {
   .container {
-    width: 65rem;
+    width: 90%;//65rem;
   }
 
   .col-md,
@@ -728,9 +728,9 @@
   }
 }
 
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: $breakpoint-lg) { //75em) {
   .container {
-    width: 76rem;
+    width: 90%; //76rem;
   }
 
   .col-lg,

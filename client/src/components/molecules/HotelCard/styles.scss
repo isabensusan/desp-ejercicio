@@ -1,0 +1,16 @@
+.hotel-card {
+    border-radius: 8px;
+    min-height: 325px;
+    border: $border-1-light-gray;
+    margin-bottom: 20px;
+    transition: box-shadow $transition-1;
+
+    .hotel-card__wrapper {
+        height: 100%;
+    }
+
+    &:hover {
+        transition: box-shadow $transition-1;
+        box-shadow: $shadow-1;
+    }
+}

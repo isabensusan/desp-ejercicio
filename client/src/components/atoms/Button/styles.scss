@@ -1,0 +1,28 @@
+.btn {
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: $borer-radius-btn-round;
+    font-weight: $text-semibold;
+    width: 100%;
+    transition: background-color $transition-1;
+}
+
+// Button themes - only coded the theme used there would be more
+.btn--primary {
+    background-color: $purple;
+    color: $white;
+
+    &:hover {
+        background-color: $dark-purple;
+    }
+}
+
+// Button Sizes - only coded the size used, would also need --lg --sm and more
+.btn--md {
+    height: 36px;
+    padding: 0 16px;
+    font-size: $text-sm;
+    line-height: 36px;
+}

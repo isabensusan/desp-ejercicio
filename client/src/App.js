@@ -1,11 +1,11 @@
 import React from 'react';
 import './styles/main.scss';
-import HotelsList from './components/organisms/HotelsList/HotelsList';
+import Home from './components/templates/Home';
 
 function App() {
   return (
-    <div className="App">
-      <HotelsList></HotelsList>
+    <div className="App container">
+      <Home></Home>
     </div>
   );
 }
