@@ -18,7 +18,7 @@ Para iniciar la app:
   cd server && npm run dev
 ```
 
-Previews del sitio: 
+**Previews del sitio:**
 - [Vista Vuelos](https://imgur.com/ddsPSkM)
 - [Vista Hoteles](https://imgur.com/jDld9GE)
 
