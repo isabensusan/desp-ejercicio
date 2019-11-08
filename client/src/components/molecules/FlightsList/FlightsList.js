@@ -48,7 +48,6 @@ const FlightsList = () => {
                 flights.map(flight => {
                     return (                       
                         <FlightCardContainer flightData={flight}></FlightCardContainer>
-                        // flight.price                        
                     )                    
                 })
             }

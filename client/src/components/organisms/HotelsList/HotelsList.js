@@ -25,9 +25,9 @@ class HotelsList extends Component {
 
     render() {
         let { hotels } = this.state;
-
         return (
-            <div class='hotels-list'>
+            <div class='hotels-list'>           
+                 {/* if there are hotels, create a hotelCard for each one */}
                 {
                     hotels && hotels.length > 0 ? (
                         hotels.map(hotel => {

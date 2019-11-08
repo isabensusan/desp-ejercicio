@@ -34,8 +34,7 @@ class FlightCardContainer extends React.Component {
             {isDesktop ? (
                 <FlightCardDesktop flightData={this.props.flightData}></FlightCardDesktop>
             ) : (
-                <FlightCardMobile flightData={this.props.flightData}></FlightCardMobile>
-                // <div data={this.props.flightData}></div>
+                <FlightCardMobile flightData={this.props.flightData}></FlightCardMobile>               
             )}
             </div>
         );
