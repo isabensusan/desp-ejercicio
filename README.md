@@ -1,7 +1,7 @@
 # desp-test
 Dev Exercise - App creada con React, Express, MongoDB y Node.js que muestra componentes de Hoteles y Vuelos.
 
-Para correrlo por primera vez: 
+**Para correrlo por primera vez:**
 1. Mover el archivo ```.env``` enviado a la carpeta ```server```
 2. Correr:
 ```
@@ -12,6 +12,7 @@ npm run dev
 ``` 
 
 **Commands:**
+Para iniciar la app:
 ```
   cd server && npm run dev
 ```
