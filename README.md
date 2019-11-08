@@ -12,6 +12,7 @@ npm run dev
 ``` 
 
 **Commands:**
+
 Para iniciar la app:
 ```
   cd server && npm run dev
